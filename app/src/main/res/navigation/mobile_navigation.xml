@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation.xml"
+    app:startDestination="@id/bottom_navigation_chat">
+
+    <fragment
+        android:id="@+id/bottom_navigation_chat"
+        android:name="com.slowchat.message.ui.FragmentChat"
+        android:label="@string/navigation_chat"
+        tools:layout="@layout/fragment_chat" />
+
+    <fragment
+        android:id="@+id/bottom_navigation_contacts"
+        android:name="com.slowchat.contact.ui.FragmentContacts"
+        android:label="@string/navigation_contacts"
+        tools:layout="@layout/fragment_contacts" />
+
+    <fragment
+        android:id="@+id/bottom_navigation_map"
+        android:name="com.slowchat.map.ui.FragmentMap"
+        android:label="@string/navigation_map"
+        tools:layout="@layout/fragment_map" />
+
+    <fragment
+        android:id="@+id/bottom_navigation_share"
+        android:name="com.slowchat.bluetooth.ui.FragmentShare"
+        android:label="@string/navigation_share"
+        tools:layout="@layout/fragment_share" />
+
+</navigation>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SlowChat</string>
+
+    <string name="navigation_chat">Chat</string>
+    <string name="navigation_contacts">Contacts</string>
+    <string name="navigation_map">Carte</string>
+    <string name="navigation_share">Partager</string>
+    <string name="navigation_received">Reçus</string>
+    <string name="navigation_sent">Envoyés</string>
+    <string name="navigation_settings">Paramètres</string>
+    <string name="navigation_main">Retour</string>
+
+    <string name="authorize_gps">Autoriser le GPS</string>
+    <string name="authorize_gps_description">Les autorisations GPS sont nécessaires pour cette fonctionnalité. Veuillez les accepter si vous voulez bénéficier de cette fonctionnalité.</string>
+    <string name="no_gps">GPS non supporté</string>
+    <string name="no_gps_description">Le GPS n\'est pas supporté sur cet appareil. La position de l\'appareil ne peut pas être récupérée.</string>
+    <string name="enable_gps">Activer le GPS ?</string>
+    <string name="enable_gps_description">Le GPS semble désactivé, voulez-vous l\'activer ?</string>
+
+    <string name="no_bluetooth">Bluetooth non supporté</string>
+    <string name="no_bluetooth_description">Le Bluetooth n\'est pas supporté sur cet appareil. Les fonctionnalités d\'échange de messages ne fonctionneront pas.</string>
+
+    <string name="name_dialog_letterbox">Boîte aux lettres</string>
+    <string name="name_dialog_edit_letterbox">Edition d\'une boîte aux lettres</string>
+    <string name="id_letterbox">ID:</string>
+    <string name="state_letterbox">État:</string>
+    <string name="latitude_letterbox">Latitude:</string>
+    <string name="longitude_letterbox">Longitude:</string>
+    <string name="update_date_letterbox">Dernière MaJ des infos:</string>
+    <string name="need_alim_letterbox">Nécessite une alimentation:</string>
+    <string name="edit_button_letterbox">Édition  </string>
+    <string name="confirm_edition_letterbox">Confirmer</string>
+
+    <string name="confirm_init_unique_id">Confirmer</string>
+    <string name="message_welcome_init_unique_id">Bonjour et bienvenue dans l\'app SlowChat.\nAfin de pouvoir commencer à l\'utiliser, il vous faut créer un mot de passe.\nCe mot de passe sera demandé en cas de changement de téléphone.</string>
+    <string name="hint_password_init_unique_id">Mot de passe</string>
+
+    <string name="cancel">Annuler</string>
+    <string name="add">Ajouter</string>
+    <string name="edit">Modifier</string>
+    <string name="remove">Supprimer</string>
+    <string name="id">Identifiant</string>
+    <string name="username">Nom d\'utilisateur</string>
+
+    <string name="add_contact">Ajouter un contact</string>
+    <string name="edit_contact">Modifier le contact</string>
+    <string name="remove_contact">Supprimer le contact ?</string>
+    <string name="remove_contact_description">Ce contact sera définitivement supprimé de votre appareil</string>
+    <string name="dialog_qrcode">Partagez facilement votre identifiant avec ce QR CODE :</string>
+
+    <string name="message_you">Vous :</string>
+
+    <string name="bluetooth_disabled">Le Bluetooth n\'est pas activé.</string>
+    <string name="enable">Activer</string>
+    <string name="paired_devices">Appareils appairés</string>
+    <string name="available_devices">Appareils disponibles</string>
+    <string name="bluetooth_denied">Les autorisations Bluetooth ne sont pas accordées.</string>
+    <string name="allow">Autoriser</string>
+    <string name="search">Rechercher</string>
+    <string name="connection_error">Erreur de connexion</string>
+    <string name="connection_pending">Connexion...</string>
+    <string name="successfully_connected">Connexion réussie</string>
+
+    <string name="settings_become_letterbox">Devenir une boite aux lettres</string>
+    <string name="settings_become_client">Redevenir un utilisateur</string>
+
+    <string name="write_message">Écrire un message</string>
+    <string name="send">Envoyer</string>
+    <string name="action_qrcode_title">QR CODE</string>
+    <string name="dialog_qrcode_uniqueid">Identifiant unique:</string>
+
+
+    <string name="settings_change_device">Transférer mon compte sur un nouvel appareil</string>
+    <string name="settings_change_device_help_old_salt">Si vous souhaitez passer votre compte sur un autre téléphone, vous devrez utiliser ce code dans la case SALT :</string>
+    <string name="settings_change_device_migrate_title">Migrer vers cet appareil</string>
+    <string name="settings_change_device_migrate_to_another_title">Migrer cet appareil vers un autre</string>
+    <string name="settings_change_device_old_password">Mot de passe précédemment utilisé :</string>
+    <string name="settings_change_device_hint_password">Mot de passe</string>
+    <string name="settings_change_device_old_salt_title">SALT : (Trouvable dans les settings de l\'ancien téléphone)</string>
+    <string name="settings_change_device_hint_salt">Salt</string>
+    <string name="confirm_unique_id_change_device">Devenir le nouvel appareil</string>
+
+</resources>
